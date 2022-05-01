@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Space+Grotesk:wght@300;500;600;700&display=swap');
+
+:root{
+    --gray:#F1EADC;
+    --black:black;
+    --white:white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Space Grotesk;
+}
+body{
+    background-color: #F9F4EA;
+}
+html{
+    scroll-behavior: smooth;
+}
+menu{
+    display: flex;
+    align-items: center;
+    padding: 34px 56px;
+    position: sticky;
+    top: 0;
+    background-color: #F9F4EA;
+    z-index: 5;
+}
+menu .right-side{
+    margin-left: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+menu .right-side ul{
+    display: flex;
+}
+menu .right-side ul a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin:  0 20px;
+}
+menu .right-side .right-button{
+    display: flex;
+}
+.deshboard{
+    display: flex;
+}
+.deshboard .content{
+    margin-left: 120px;
+}
+.deshboard .content h1{
+    font-size: 72px;
+}
+.deshboard .content p{
+    font-size: 18px;
+    margin-top: 24px;
+    font-family: manrope;
+}
+.deshboard .content .store-image{
+    display: flex;
+    margin-top: 40px;
+}
+.deshboard .content .store-image img{
+    margin-right: 16px;
+}
+.deshboard .image-side img{
+    margin-left: 150px;
+}
+.company-section{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.company-section .left-side img{
+    margin-left: 165px;
+    margin-right: 64px;
+}
+.company-section .right-side{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid gray;
+}
+.company-section .right-side h3{
+    font-family: manrope;
+    font-weight: 100;
+    width: 120px;
+    font-size: 16px;
+    margin: 44px 64px;
+}
+#awards{
+    height: 100px;
+}
+.feature{
+    padding-top: 140px;
+}
+.feature .content{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 160px;
+}
+.feature .content h1{
+    font-size: 56px;
+}
+.feature .content p{
+    font-size: 20px;
+    font-family: manrope;
+    margin-top: 16px;
+}
+.feature .left-side{
+    margin-right: 160px;
+}
+.feature .right-side{
+    background-color: var(--gray);
+    padding: 32px;
+    width: 400px;
+    position: relative;
+}
+.feature .right-side img{
+    height: 30px;
+    position: absolute;
+    top: -15px;
+}
+.feature .right-side p{
+    font-size: 15px;
+}
+.feature .right-side h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+.feature .card-section{
+    margin-top: 72px;
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.feature .card-section .card{
+    text-align: center;
+    width: 320px;
+    margin: 0 20px;
+    padding: 22px;
+    border: 1px solid;
+}
+.feature .card-section .card h4{
+    text-align: left;
+}
+.feature .card-section .card h1{
+    font-size: 28px;
+    margin-top: 24px;
+}
+.feature .card-section .card p{
+    font-size: 15px;
+    margin-top: 16px;
+}
+.more-feature{
+    display: flex;
+    align-items: center;
+    padding: 140px 150px;
+}
+.more-feature .left-side{
+    margin-right: 140px;
+}
+.more-feature .right-side h5{
+    font-size: 50px;
+}
+.more-feature .right-side hr{
+    margin: 24px 0px;
+}
+.more-feature .right-side p{
+    font-size: 18px;
+    margin-top: ;
+}
+.more-feature .right-side li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+.more-feature .right-side img{
+    margin-right: 12px;
+}
+.save-money{
+    display: flex;
+    align-items: center;
+    margin-bottom: 140px;
+    padding: 0 150px;
+}
+.save-money .left-side{
+    margin-right: 160px;
+}
+.save-money .left-side h1{
+    font-size: 50px;
+}
+.save-money .left-side .card{
+    background-color: var(--gray);
+    padding: 32px;
+    width: 400px;
+    margin-top: 32px;
+    position: relative;
+}
+.save-money .left-side .card img{
+    height: 30px;
+    position: absolute;
+    top: -15px;
+}
+.save-money .left-side .card h4{
+    margin-top: 16px;
+}
+.other-feature{
+    background-color: var(--gray);
+    padding: 140px 150px;
+}
+.other-feature h1{
+    font-size: 72px;
+}
+.other-feature p{
+    margin-top: 16px;
+}
+.other-feature .card-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.other-feature .card-section .card{
+    width: 340px;
+    border: 1px solid;
+    padding: 48px 32px;
+}
+.other-feature .card-section .card h3{
+    margin-top: 24px;
+}
+.other-feature .card-section .card p{
+    margin-top: 16px;
+}
+.other-feature .card-section .two-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.other-feature .card-section .two-card .single-card{
+    height: 105px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+.testimonial{
+    padding: 140px 150px;
+}
+.testimonial h1{
+    font-size: 72px;
+}
+.testimonial .card{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    padding: 40px 25px;
+    border: 1px solid;
+}
+.testimonial .card h4{
+    font-size: 28px;
+}
+.testimonial .card p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 32px;
+}
+.testimonial .content{
+    width: 50%;
+}
+.counting{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.counting .left-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+.counting .left-side p{
+    font-size: 20px;
+    margin-right: 30px;
+}
+.counting .right-side{
+    display: flex;
+    padding: 55px 0px;
+    border-left: 1px solid;
+}
+.counting .right-side .card{
+    margin: 0 50px;
+}
+.counting .right-side .card h1{
+    font-size: 52px;
+}
+.counting .right-side .card h3{
+    font-size: 24px;
+    font-weight: 100;
+}
+.blog{
+    padding: 0 150px;
+    padding-top: 140px;
+}
+.blog h1{
+    font-size: 72px;
+}
+.blog .single-card{
+    display: flex;
+    background-color: var(--gray);
+    margin-top: 40px;
+}
+.blog .single-card .content{
+    padding: 40px;
+}
+.blog .single-card .content h4{
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.blog .single-card .content > p{
+    font-size: 28px;
+}
+.blog .single-card .content .more{
+    margin-top: 70px;
+    display: flex;
+}
+.blog .multi-blog{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.blog .multi-blog .card{
+    background-color: var(--gray);
+    width: 330px;
+}
+.blog .multi-blog .card .content{
+    padding: 20px;
+}
+.blog .multi-blog .card h4{
+    font-size: 15px;
+    font-family: manrope;
+    font-weight: 100;
+}
+.blog .multi-blog .card p{
+    font-size: 28px;
+    margin-top: 24px;
+}
+.blog .multi-blog .card img{
+    width: 100%;
+}
+.question{
+    padding: 140px 150px;
+}
+.question .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.question h1{
+    font-size: 72px;
+}
+.question .section{
+    display: flex;
+    margin-top: 65px;
+}
+.question .section .left-side{
+    margin-right: 60px;
+}
+.question .left-side .card{
+    padding: 20px 25px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    height: 70px;
+    overflow: hidden;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.question .left-side .card.active{
+    height: 135px;
+}
+.question .right-side{
+    background-color: var(--gray);
+    padding: 20px;
+    text-align: center;
+    height: 300px;
+}
+.question .right-side .mail-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+.question .right-side .mail-button img{
+    margin-right: 20px;
+}
