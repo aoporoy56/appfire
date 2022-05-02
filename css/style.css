@@ -483,17 +483,20 @@ menu .right-side .right-button{
 @media only screen and (max-width: 768px){
     menu{
         justify-content: space-between;
-        position: relative;
+        padding: 20px 56px;
     }
     menu .right-side{
         position: absolute;
-        padding: 20px 0;
+        /* padding: 20px 0; */
         display: block;
         top: 80px;
         background-color: #F9F4EA;
         height: 0;
         overflow: hidden;
         transition: 0.6s ease;
+        left: 0;
+        margin-left: 0;
+        padding-left: 20px;
         /* display: none; */
     }
     .menu.active{
@@ -575,7 +578,7 @@ menu .right-side .right-button{
         font-size: 50px;
     }
     .save-money .left-side img{
-        width: 100%;
+        /* width: 100%; */
     }
     .other-feature{
         padding: 100px 20px;
