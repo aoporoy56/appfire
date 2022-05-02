@@ -515,6 +515,12 @@ menu .right-side .right-button{
     .deshboard .content h1{
         font-size: 50px;
     }
+    .deshboard .image-side img{
+        width: 100%;
+    }
+    .deshboard .content .store-image{
+        display: block;
+    }
     .company-section{
         display: block;
         text-align: center;
@@ -541,6 +547,7 @@ menu .right-side .right-button{
     }
     .feature .card-section{
         display: block;
+        padding: 0 20px;
     }
     .feature .card-section .card{
         margin-top: 20px;
@@ -597,6 +604,9 @@ menu .right-side .right-button{
     .testimonial h4{
         font-size: 18px !important;
     }
+    .blog{
+        padding: 100px 20px;
+    }
     .blog h1{
         font-size: 50px;
     }
@@ -606,6 +616,7 @@ menu .right-side .right-button{
     .blog .multi-blog .card{
         margin: 0 !important;
         margin-top: 20px !important;
+        width: 100%;
     }
     .question{
         padding: 100px 20px;
