@@ -13,6 +13,7 @@
 }
 body{
     background-color: #F9F4EA;
+    overflow-x: hidden;
 }
 html{
     scroll-behavior: smooth;
@@ -172,7 +173,6 @@ menu .right-side .right-button{
 }
 .more-feature .right-side p{
     font-size: 18px;
-    margin-top: ;
 }
 .more-feature .right-side li{
     list-style: none;
@@ -257,11 +257,11 @@ menu .right-side .right-button{
     font-size: 72px;
 }
 .testimonial .card{
-    width: 700px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 40px 25px;
-    border: 1px solid;
+    position: relative;
 }
 .testimonial .card h4{
     font-size: 28px;
@@ -270,6 +270,9 @@ menu .right-side .right-button{
     font-size: 18px;
     font-weight: bold;
     margin-top: 32px;
+}
+.testimonial .card  > img{
+    width: 30px;
 }
 .testimonial .content{
     width: 50%;
@@ -401,4 +404,222 @@ menu .right-side .right-button{
 }
 .question .right-side .mail-button img{
     margin-right: 20px;
+}
+
+@media only screen and (max-width: 992px){
+    .deshboard{
+        flex-direction: column;
+        padding-bottom: 80px;
+    }
+    .deshboard .content{
+        order: 2;
+        margin-left: 80px;
+    }
+    .feature .content{
+        display: block !important;
+        margin: 0 80px;
+    }
+    .feature .content .right-side{
+        margin-top: 50px;
+    }
+    .feature .card-section{
+        padding: 0 80px;
+    }
+    .feature .card-section .card h1{
+        font-size: 20px;
+    }
+    .feature .card-section .card p{
+        font-size: 15px;
+    }
+    .more-feature{
+        display: block;
+        padding: 140px 80px;
+    }
+    .save-money{
+        display: block;
+        padding: 140px 80px;
+        padding-top: 0%;
+    }
+    .save-money .right-side{
+        margin-top: 50px;
+    }
+    .save-money .left-side{
+        margin-right: 0;
+    }
+    .save-money{
+        margin-bottom: 0;
+    }
+    .other-feature{
+        padding: 140px 80px;
+    }
+    .blog{
+        padding: 140px 80px;
+    }
+    .blog .single-card{
+        display: block;
+    }
+    .blog .multi-blog .content p{
+        font-size: 20px;
+    }
+    .blog .single-card .right img{
+        width: 100%;
+    }
+    .blog .multi-blog .card:nth-child(2){
+        margin: 0 10px;
+    }
+    .question{
+        padding: 140px 80px;
+    }
+    .question .section{
+        display: block;
+    }
+    .question .right-side{
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 768px){
+    menu{
+        justify-content: space-between;
+        position: relative;
+    }
+    menu .right-side{
+        position: absolute;
+        padding: 20px 0;
+        display: block;
+        top: 80px;
+        background-color: #F9F4EA;
+        height: 0;
+        overflow: hidden;
+        transition: 0.6s ease;
+        /* display: none; */
+    }
+    .menu.active{
+        height: 265px;
+    }
+    menu .right-side ul{
+        display: block;
+    }
+    .deshboard{
+        padding: 0;
+        padding-bottom: 30px;
+    }
+    .deshboard .content{
+        margin-left: 20px;
+    }
+    .deshboard .content h1{
+        font-size: 50px;
+    }
+    .company-section{
+        display: block;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .company-section .left-side img{
+        margin: 0;
+    }
+    .company-section h3{
+        width: auto !important;
+    }
+    .company-section .right-side{
+        display: block;
+        text-align: center;
+    }
+    .feature .left-side{
+        margin: 0;
+    }
+    .feature .content{
+        margin: 0 20px;
+    }
+    .feature .content h1{
+        font-size: 50px;
+    }
+    .feature .card-section{
+        display: block;
+    }
+    .feature .card-section .card{
+        margin-top: 20px;
+        margin: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .more-feature{
+        padding: 100px 20px;
+    }
+    .more-feature h1{
+        font-size: 50px;
+    }
+    .save-money{
+        padding: 100px 20px;
+    }
+    .save-money h1{
+        font-size: 50px;
+    }
+    .other-feature{
+        padding: 100px 20px;
+    }
+    .other-feature h1{
+        font-size: 50px;
+    }
+    .other-feature .card-section{
+        display: block;
+    }
+    .other-feature .card-section .card{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .counting{
+        display: block;
+        padding-top: 30px;
+    }
+    .counting .left-side{
+        padding: 0;
+        text-align: center;
+    }
+    .counting .right-side{
+        display: block;
+    }
+    .counting .right-side .card{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .testimonial{
+        padding: 100px 20px;
+    }
+    .testimonial h1{
+        font-size: 50px;
+    }
+    .testimonial h4{
+        font-size: 18px !important;
+    }
+    .blog h1{
+        font-size: 50px;
+    }
+    .blog .multi-blog{
+        display: block;
+    }
+    .blog .multi-blog .card{
+        margin: 0 !important;
+        margin-top: 20px !important;
+    }
+    .question{
+        padding: 100px 20px;
+    }
+    .question h1{
+        font-size: 50px;
+    }
+    .question .card{
+        width: 100%;
+    }
+    .question .left-side{
+        margin-right: 0 !important;
+    }
+    .question .left-side .card{
+        height: 92px;
+    }
+    .question .left-side .card.active{
+        height: 190px;
+    }
+    .question .left-side .card p{
+        margin-top: 33px;
+    }
 }
