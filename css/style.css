@@ -27,6 +27,9 @@ menu{
     background-color: #F9F4EA;
     z-index: 5;
 }
+menu > img{
+    display: none;
+}
 menu .right-side{
     margin-left: 50px;
     width: 100%;
@@ -497,6 +500,9 @@ menu .right-side .right-button{
         height: 265px;
     }
     menu .right-side ul{
+        display: block;
+    }
+    menu > img{
         display: block;
     }
     .deshboard{
